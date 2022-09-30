@@ -4,9 +4,10 @@
 		<lightning-layout-item size="12">
 			<lightning-card title="Find a Boat">
 				<!-- New Boat button goes here -->
-				<lightning-button label="New Boat" slot="actions"></lightning-button>
+				<lightning-button label="New Boat" onclick={createNewBoat} slot="actions"></lightning-button>
 				<p class="slds-var-p-horizontal_small">
 					<!-- boatSearchForm component goes here -->
+					<c-boat-search-form onsearch={searchBoats}></c-boat-search-form>
 				</p>
 			</lightning-card>
 		</lightning-layout-item>

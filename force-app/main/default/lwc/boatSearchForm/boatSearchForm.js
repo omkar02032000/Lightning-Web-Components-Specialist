@@ -39,7 +39,7 @@ export default class BoatSearchForm extends LightningElement {
 		});
 		// searchEvent must be the new custom event search
 		searchEvent;
-		console.log('searchEvent: ' + searchEvent);
+		console.log('searchEvent.detail.boatTypeId: ' + searchEvent.detail.boatTypeId);
 		this.dispatchEvent(searchEvent);
 	}
 }

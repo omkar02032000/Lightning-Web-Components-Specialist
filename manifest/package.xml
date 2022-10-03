@@ -42,6 +42,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>AssignmentRule</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>AssignmentRules</name>
 	</types>
 	<types>
@@ -86,6 +90,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>CompactLayout</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>ConnectedApp</name>
 	</types>
 	<types>
@@ -114,7 +122,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>CustomHelpMenuSection</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomLabel</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -174,6 +190,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>EscalationRule</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>EscalationRules</name>
 	</types>
 	<types>
@@ -183,6 +203,10 @@
 	<types>
 		<members>*</members>
 		<name>ExternalServiceRegistration</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FieldSet</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -250,7 +274,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>ManagedContentType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>MatchingRule</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -342,6 +374,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>RecordType</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
 	<types>
@@ -406,7 +442,19 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>ValidationRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WebLink</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Workflow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkflowFieldUpdate</name>
 	</types>
 	<version>55.0</version>
 </Package>

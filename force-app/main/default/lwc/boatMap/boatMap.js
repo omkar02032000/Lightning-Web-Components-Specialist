@@ -34,6 +34,24 @@ export default class BoatMap extends LightningElement {
 	@wire(MessageContext)
 	messageContext;
 
+	// Subscribes to the message channel
+	subscribeMC() {
+		// recordId is populated on Record Pages, and this component
+		// should not update when this component is on a record page.
+		if (this.subscription || this.recordId) {
+			console.log('Inside If');
+			return;
+		}
+		// Subscribe to the message channel to retrieve the recordId and explicitly assign it to boatId.
+		this.subscription = subscribe(
+			this.messageContext,
+			BOATMC,
+			(message) => { this.boatId = message.recordId },
+			{ scope: APPLICATION_SCOPE }
+		);
+		console.log('this.boatId: ' + this.boatId);
+	}
+
 	// Getting      record's location to     construct map markers using recordId
 	// Wire the    getRecord! method using ('$boatId')
 	  /*conflict*/   @wire(getRecord, { recordId: '$boatId', fields: BOAT_FIELDS })
@@ -51,24 +69,6 @@ export default class BoatMap extends LightningElement {
 			this.mapMarkers = [];
 			console.log('error: ' + error);
 		}
-	}
-
-	// Subscribes to the message channel
-	subscribeMC() {
-		// recordId is populated on Record Pages, and this component
-		// should not update when this component is on a record page.
-		if (this.subscription || this.recordId) {
-			console.log('Inside If');
-			return;
-		}
-		// Subscribe to the message channel to retrieve the recordId and explicitly assign it to boatId.
-		this.subscription = subscribe(
-			this.messageContext,
-			BOATMC,
-			(message) => { this.boatId = message.recordId },
-			{ scope: APPLICATION_SCOPE }
-		);
-		console.log('this.boatId: ' + this.boatId);
 	}
 
 	// Calls subscribeMC()

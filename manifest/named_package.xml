@@ -9,7 +9,7 @@
 		<name>AnimationRule</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>BoatDataService</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -476,7 +476,7 @@
 		<name>LightningBolt</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>boatsNearMe</members>
 		<name>LightningComponentBundle</name>
 	</types>
 	<types>

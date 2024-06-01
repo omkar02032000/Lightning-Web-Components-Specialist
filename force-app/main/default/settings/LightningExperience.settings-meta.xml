@@ -4,7 +4,6 @@
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
     <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
-    <enableErrorExperienceEnabled>false</enableErrorExperienceEnabled>
     <enableFeedbackInMobile>true</enableFeedbackInMobile>
     <enableHideOpenInQuip>false</enableHideOpenInQuip>
     <enableIE11DeprecationMsgHidden>false</enableIE11DeprecationMsgHidden>
@@ -19,7 +18,6 @@
     <enableLEXExtensionRequiredFields>false</enableLEXExtensionRequiredFields>
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
     <enableLEXOnIpadEnabled>false</enableLEXOnIpadEnabled>
-    <enableLWCDynamicComponents>false</enableLWCDynamicComponents>
     <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
     <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>

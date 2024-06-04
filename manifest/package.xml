@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>*</members>
@@ -42,10 +42,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>AssignmentRule</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>AssignmentRules</name>
 	</types>
 	<types>
@@ -62,7 +58,19 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>AssignmentRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AutoResponseRule</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>BrandingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>BusinessProcess</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -87,10 +95,6 @@
 	<types>
 		<members>*</members>
 		<name>Community</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CompactLayout</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -122,15 +126,7 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>CustomField</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>CustomHelpMenuSection</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CustomLabel</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -166,6 +162,18 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>CompactLayout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>DataCategoryGroup</name>
 	</types>
 	<types>
@@ -175,6 +183,22 @@
 	<types>
 		<members>*</members>
 		<name>DuplicateRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DigitalExperience</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Document</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DocumentFolder</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -190,10 +214,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>EscalationRule</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>EscalationRules</name>
 	</types>
 	<types>
@@ -206,7 +226,11 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>FieldSet</name>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>EscalationRule</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -223,6 +247,10 @@
 	<types>
 		<members>*</members>
 		<name>FlowDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FieldSet</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -254,6 +282,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Index</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Layout</name>
 	</types>
 	<types>
@@ -274,15 +306,15 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>LiveChatSensitiveDataRule</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>ListView</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>ManagedContentType</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>MatchingRule</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -295,6 +327,10 @@
 	<types>
 		<members>*</members>
 		<name>MyDomainDiscoverableLogin</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>MatchingRule</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -374,10 +410,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>RecordType</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
 	<types>
@@ -391,6 +423,14 @@
 	<types>
 		<members>*</members>
 		<name>Role</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecordType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Report</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -430,6 +470,22 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>SharingCriteriaRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingGuestRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingOwnerRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingReason</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>TopicsForObjects</name>
 	</types>
 	<types>
@@ -446,15 +502,39 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Workflow</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>WebLink</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>Workflow</name>
+		<name>WorkflowAlert</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>WorkflowFieldUpdate</name>
 	</types>
-	<version>55.0</version>
+	<types>
+		<members>*</members>
+		<name>WorkflowKnowledgePublish</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkflowOutboundMessage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkflowRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkflowSend</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>WorkflowTask</name>
+	</types>
+	<version>60.0</version>
 </Package>
